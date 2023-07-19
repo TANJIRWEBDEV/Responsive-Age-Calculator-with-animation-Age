@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,800&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+.app {
+  min-height: 100dvh;
+  background-color: hsl(0, 0%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4%;
+}
+
+.app__container {
+  background-color: white;
+  padding: 3.8%;
+  max-width: 750px;
+  width: 100%;
+  border-radius: 4% 4% 25% 4%;
+}
+
+.ac__items__1 {
+  display: flex;
+  color: red;
+  gap: 5%;
+}
+.ac__items__1__1 {
+  max-width: 130px;
+}
+
+.ac__items__1__1-1 {
+  font-family: "Poppins", sans-serif;
+  color: hsl(0, 1%, 44%);
+  font-size: 0.75rem;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  margin-bottom: 5%;
+}
+.acitems1_1_1 {
+  color: hsl(0, 100%, 67%);
+}
+.ac__items__1__1-2 {
+  width: 100%;
+  padding: 8% 15%;
+  font-size: clamp(1.3rem, 3vw, 1.8rem);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  border-radius: 8px;
+  border: 2px solid hsl(0, 0%, 94%);
+  margin-bottom: 4%;
+  outline-style: none;
+  cursor: pointer;
+  caret-color: hsl(259, 100%, 80%);
+}
+
+.ac__items__1__1-2:focus {
+  border-width: 2px;
+  border-style: inset;
+  border-color: hsl(259, 100%, 80%);
+}
+.acitems1_1_2 {
+  border: 1px solid hsl(0, 100%, 67%);
+}
+.ac__items__1__1 > p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 0.7rem;
+  color: hsl(0, 100%, 67%);
+}
+
+.ac__items__2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ac__items__2-1 {
+  border-top: 2px solid hsl(0, 0%, 94%);
+  flex: 3;
+  height: 0;
+  color: red;
+}
+
+.ac__items__2-2 {
+  padding: 3.5% 2.5%;
+  background-color: hsl(259, 100%, 65%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+}
+
+.ac__items__2-2 > img {
+  width: 80%;
+}
+
+.ac__items__2-2:hover {
+  background-color: hsl(0, 0%, 8%);
+}
+/* .ac__items__3 {
+} */
+.ac__items__3-1 {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-weight: 800;
+  font-size: clamp(2.9rem, 10vw, 4.8rem);
+  font-style: italic;
+  line-height: 1.1;
+  display: flex;
+  align-items: center;
+  gap: 1.8%;
+}
+
+.ac__items__3-1 > p {
+  color: hsl(259, 100%, 65%);
+  padding-top: 0.5%;
+}
+
+@media (max-width: 620px) {
+  .app__container {
+    padding: 15% 6%;
+  }
+  .ac__items__2 {
+    margin: 10% 0;
+  }
+  .ac__items__2-2 {
+    padding: 5% 1.6%;
+  }
+  .ac__items__2-2 > img {
+    width: 55%;
+    object-fit: cover;
+  }
+  .ac__items__3-1 {
+    gap: 2.9%;
+  }
+}
